@@ -6,9 +6,9 @@ Also, it contains a Docker image for running PostgreSQL 14 on Alpine with WAL-G 
 
 ## Tree
 
-* [walg/Dockerfile](./walg/Dockerfile) - Dockerfile for building WAL-G binary 
+* [walg Dockerfile](./walg/Dockerfile) - Dockerfile for building WAL-G binary 
   * Available from Docker hub : `docker pull quentinchampenois/walg:v2.0.1-alpine3.18`
-* [pg_walg/Dockerfile](pg_walg/Dockerfile) - Dockerfile for building PostgreSQL 14 with WAL-G binary already installed
+* [pg_walg Dockerfile](pg_walg/pg14/Dockerfile) - Dockerfile for building PostgreSQL 14 with WAL-G binary already installed
   * Available from Docker hub : `docker pull quentinchampenois/pg_walg:v2.0.1-14`
 
 ## How to build this image:
